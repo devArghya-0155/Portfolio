@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Arghya Das Portfolio</title>
+  <link rel="icon" href="images/iconfinder-1-avatar-2754574_120513.ico" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css" />
+</head>
+
+<body>
+  <div class="container container_scroll_up">
+    <nav class="sidebar">
+      <ul>
+        <li><a href="#home" class="nav-items active">Home</a></li>
+        <li><a href="#about" class="nav-items">About Me</a></li>
+        <li><a href="#skills" class="nav-items">Skills</a></li>
+        <!-- <li><a href="google.com" class="nav-items">Projects</a></li> -->
+        <li><a href="#contact" class="nav-items">Contact Me</a></li>
+      </ul>
+    </nav>
+    <div class="navIcons">
+      <img src="images/menu.svg" alt="menu" class="menu" />
+      <img src="images/close.svg" alt="cancel" class="close" />
+    </div>
+  </div>
+  <section id="home">
+    <div class="introduction">
+      <div class="info">
+        <p class="name">I'm Arghya.</p>
+        <p class="starter">
+          A <span class="code"> competitive programmer</span> and a
+          <span class="code">web developer.</span>
+        </p>
+        <p class="starter">Welcome to my portfolio website.</p>
+        <button type="button" class="resume" onclick="window.open('./resume.pdf')">
+          Download Resume &nbsp; <i class="fa fa-external-link"></i>
+        </button>
+      </div>
+    </div>
+  </section>
+  <section id="about">
+    <div class="header">About Me</div>
+    <div class="about_me">
+      Hey there! I am Arghya Das, a third-year undergraduate student at IIT
+      (ISM) Dhanbad. I am passionate about competitive coding and web
+      development. My skillset includes
+      <span class="skillset">
+        in C++, HTML, CSS, JavaScript, Bootstrap, React</span>, and <span class="skillset"> Node </span>. I actively
+      participate in
+      coding competitions. I am a div-3 coder at CodeChef. You can find my
+      CodeChef profile at
+      <a href="https://www.codechef.com/users/arghya556" class="profile skillset" target="blank">Codechef</a>
+      and my Codeforces profile at
+      <a href="https://codeforces.com/profile/Hustler2464" class="profile skillset" target="blank">Codeforces</a>. I am
+      constantly dedicated to improving my skills and expanding my
+      expertise in various domains. <br /><br />
+
+      When I am not developing, you can find me cycling or playing chess with
+      my friends. I love to start with 1.e4, and then I end up sacrificing my
+      king!
+    </div>
+  </section>
+  <section id="skills">
+    <div class="header">Skills</div>
+    <div class="skill-container">
+      <h2>Web Development</h2>
+      <div class="webd">
+        <div class="skill-row">
+          <div class="skill-row-items">
+            <div class="icons">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg" alt="Node" />
+            </div>
+            <figcaption>Node</figcaption>
+          </div>
+          <div class="skill-row-items">
+            <div class="icons">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" alt="React" />
+            </div>
+            <figcaption>React</figcaption>
+          </div>
+          <div class="skill-row-items">
+            <div class="icons">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" alt="HTML" />
+            </div>
+            <figcaption>HTML</figcaption>
+          </div>
+          <div class="skill-row-items">
+            <div class="icons">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" alt="CSS" />
+            </div>
+            <figcaption>CSS</figcaption>
+          </div>
+        </div>
+      </div>
+      <h2>Databases</h2>
+      <div class="database">
+        <div class="skill-row">
+          <div class="skill-row-items">
+            <div class="icons">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/3/37/Firebase_Logo.svg" alt="Firebase" />
+            </div>
+            <figcaption>Firebase</figcaption>
+          </div>
+        </div>
+      </div>
+      <h2>Programming Languages</h2>
+      <div class="programming">
+        <div class="skill-row">
+          <div class="skill-row-items">
+            <div class="icons">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg" alt="C++" />
+            </div>
+            <figcaption>C++</figcaption>
+          </div>
+          <div class="skill-row-items">
+            <div class="icons">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/d/d4/Javascript-shield.svg" alt="JS" />
+            </div>
+            <figcaption>JS</figcaption>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="header">Contact Me</div>
+    <p class="touch">Let's get in touch!</p>
+    <div class="contact-form">
+      <div class="contact-left">
+        <form action="" id="contactForm">
+          <div class="input-row">
+            <div class="input-elements">
+              <label for="name">Name</label>
+              <input type="text" name="name" class="fontAwesome" id="name" placeholder="John Doe  &#xf007; "
+                spellcheck="false" required pattern="[A-Z a-z]+" />
+              <i></i>
+            </div>
+            <div class="input-elements">
+              <label for="email">Email</label>
+              <input type="email" name="email" class="fontAwesome" id="email" placeholder="johndoe@gmail.com  &#xf0e0;"
+                spellcheck="false" required />
+              <i></i>
+            </div>
+            <div class="input-elements">
+              <label for="subject">Subject</label>
+              <input type="text" name="subject" class="fontAwesome" id="subject" placeholder="Subject  &#xf0a4;"
+                spellcheck="false" required />
+              <i></i>
+            </div>
+            <div class="message">
+              <label for="message"> Your Message</label>
+              <textarea name="message" id="message" class="fontAwesome" rows="4" placeholder="Your Message  &#xf075;"
+                spellcheck="false"></textarea>
+            </div>
+            <div class="alert">
+              <button class="bn632-hover bn27" type="submit">Submit</button>
+              <span class="alertMessage">Thank you for filling this form!</span>
+            </div>
+          </div>
+        </form>
+      </div>
+      <!-- <div class="contact-right">
+                <div class="email-div">
+                    <img src="images/message.png" alt="message box">
+                </div>
+            </div> -->
+    </div>
+  </section>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+  <script src="index.js"></script>
+</body>
+
+</html>
